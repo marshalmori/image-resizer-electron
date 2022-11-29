@@ -14,6 +14,7 @@ function loadImage(e) {
   }
 
   form.style.display = "block";
+  filename.innerText = file.name;
 }
 
 // Make sure file is Image
